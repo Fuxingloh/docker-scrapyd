@@ -1,7 +1,7 @@
 FROM python:3.5
 MAINTAINER Fuxing
 
-RUN pip install 'scrapyd>=1.1.0,<1.2.0'
+RUN pip install 'scrapyd>=1.2.0,<1.3.0'
 RUN mkdir /etc/scrapyd/ \
     && echo "[scrapyd] \n bind_address = 0.0.0.0" > /etc/scrapyd/scrapyd.conf
 
