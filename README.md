@@ -1,2 +1,2 @@
-# docker-scrapyd
+# Docker Scrapyd
 Scrapyd Docker Container
